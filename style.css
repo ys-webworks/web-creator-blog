@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #253044;
+  background: #f4f5f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  line-height: 1.8;
+}
+
+header,
+footer {
+  width: calc(100% - 32px);
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  text-align: center;
+  background: #ffffff;
+}
+
+header p,
+footer p {
+  margin: 0;
+}
+
+main {
+  width: calc(100% - 32px);
+  max-width: 760px;
+  margin: 16px auto 32px;
+}
+
+article {
+  padding: 32px 24px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+article h1 {
+  margin: 0 0 24px;
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+article p {
+  margin: 0 0 16px;
+}
+
+article nav {
+  margin: 40px 0;
+  padding: 20px;
+  background: #f4f5f7;
+  border-radius: 12px;
+}
+
+article nav h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+article nav ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
+article nav li {
+  margin-top: 8px;
+}
+
+article nav a {
+  color: #1676d2;
+}
+
+article section {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid #e5eaf0;
+}
+
+article section h2 {
+  margin: 0 0 16px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+main {
+    margin: 12px auto 24px;
+  }
+
+article {
+  padding: 24px 16px;
+}
+
+article h1 {
+  font-size: 26px;
+  line-height: 1.35;
+}
+
+  article section {
+    margin-top: 32px;
+    padding-top: 20px;
+  }
+
+  article section h2 {
+    font-size: 21px;
+  }
+}
+.lead {
+  font-size: 18px;
+  font-weight: 700;
+  color: #526070;
+}
+
+article section h2 {
+  padding-left: 12px;
+  border-left: 4px solid #e53935;
+}
+.cover-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .cover-image {
+    width: 100%;
+  }
+}
